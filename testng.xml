@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="methods" thread-count="3">
+    <test name="GgfDay1">
+        <classes>
+            <class name="Day5Test.YeWuCeng.SendEmail">
+                <methods>
+                    <include name="slecTest"/>
+                </methods>
+            </class> <!-- Day5Test.YeWuCeng.SendEmail -->
+        </classes>
+    </test> <!-- GgfDay1 -->
+</suite> <!-- Default Suite -->

@@ -3,9 +3,9 @@
 <suite name="Default Suite" parallel="methods" thread-count="3">
     <test name="GgfDay1">
         <classes>
-            <class name="Day5Test.YeWuCeng.SendEmail">
+            <class name="Day5Test.YeWuCeng.Write">
                 <methods>
-                    <include name="slecTest"/>
+                    <include name="WriteTest"/>
                 </methods>
             </class> <!-- Day5Test.YeWuCeng.SendEmail -->
         </classes>
